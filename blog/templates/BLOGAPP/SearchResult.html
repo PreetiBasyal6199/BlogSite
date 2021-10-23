@@ -67,7 +67,7 @@
               By {{ item.author.full_name }} ,{{ item.post_date|date:"F d, Y" }}
             </h5>
             <p class="card-text">{{ item.description | truncatewords:15}}</p>
-            <a href="/blog/{{ post.id }}" class="btn btn-primary"
+            <a href="/blog/{{ item.id }}" class="btn btn-primary"
               >Continue Reading</a
             >
           </div>
